@@ -1,0 +1,10 @@
+server:
+  port: 9902
+  ssl:
+    key-store: classpath:event.jks
+    key-store-password: Password1!
+    key-password: Password1!
+  http2:
+    enabled: true
+message:
+  ofMinutes: 1

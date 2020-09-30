@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tiny SSE Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <p>Last message at: {{ message }}</p>
+	<button v-on:click="connect">Connect to SSE</button>
+    <button v-on:click="close">Close connection</button>
+  </div>
+</body>
+<script src="js/main.js"></script>
+</html>
